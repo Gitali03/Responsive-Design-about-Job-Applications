@@ -2,7 +2,12 @@ html {
     font-size: 18px;
     background-color: rgb(230, 230, 240)
 }
-
+@media screen and (min-width: 768px) {
+    body {
+        background-color:lightblue ;
+        font-size: 24px;
+    }
+}
 body {
     margin: 0;
     padding: 0;
